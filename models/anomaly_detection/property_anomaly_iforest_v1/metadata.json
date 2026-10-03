@@ -1,0 +1,51 @@
+{
+  "model_name": "property_anomaly_iforest_v1",
+  "model_version": "v1",
+  "task_type": "anomaly_detection",
+  "framework": "scikit-learn",
+  "framework_version": "1.9.1",
+  "serialization_format": "joblib",
+  "feature_count": 11,
+  "feature_names": [
+    "area_sqm",
+    "bedrooms",
+    "bathrooms",
+    "floor_number",
+    "base_price_egp",
+    "expected_rent_monthly_egp",
+    "price_per_sqm",
+    "property_age",
+    "rental_yield",
+    "room_density",
+    "popularity_score"
+  ],
+  "feature_order": [
+    "area_sqm",
+    "bedrooms",
+    "bathrooms",
+    "floor_number",
+    "base_price_egp",
+    "expected_rent_monthly_egp",
+    "price_per_sqm",
+    "property_age",
+    "rental_yield",
+    "room_density",
+    "popularity_score"
+  ],
+  "preprocessing_requirements": "Continuous numeric valuation features",
+  "configuration": {
+    "n_estimators": 100,
+    "contamination": 0.01,
+    "random_state": 42
+  },
+  "inference_contract": {
+    "score_method": "decision_function",
+    "anomaly_flag_mapping": {
+      "-1": "1 (Anomaly / Outlier)",
+      "1": "0 (Normal / Inlier)"
+    },
+    "inference_scope": "Online / out-of-sample prediction supported via decision_function()"
+  },
+  "training_dataset": "real_estate_intelligence_dataset/processed/ml_track1_property_pricing.csv",
+  "created_at": "2026-10-02T08:17:12.347056+00:00"
+}

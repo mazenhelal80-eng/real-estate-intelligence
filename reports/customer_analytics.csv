@@ -1,0 +1,16 @@
+category,segment,count,percentage,revenue_egp
+Funnel Overview,Total Registered Customers,10000,100.0,48984544000.0
+Funnel Overview,Customers with Inquiries (Leads),9965,99.65,0.0
+Funnel Overview,Customers with Viewings,9815,98.15,0.0
+Funnel Overview,Customers with Closed Deals,5478,54.78,48984544000.0
+Customer Type Breakdown,End User,5028,50.28,23084604700.0
+Customer Type Breakdown,Investor,2464,24.64,12709994600.0
+Customer Type Breakdown,Business,1543,15.43,7958131100.0
+Customer Type Breakdown,Landlord,965,9.65,5231813600.0
+Customer Tier Breakdown,Gold,4149,41.49,20819376700.0
+Customer Tier Breakdown,Platinum,2948,29.48,15344406400.0
+Customer Tier Breakdown,Silver,2301,23.01,10356004400.0
+Customer Tier Breakdown,Bronze,602,6.02,2464756500.0
+Interaction Frequency,Medium,4956,49.56,0.0
+Interaction Frequency,Low,2948,29.48,0.0
+Interaction Frequency,High,2096,20.96,0.0

@@ -1,0 +1,10 @@
+feature_name,entity,formula,business_purpose,leakage_risk_for_price_prediction,ml_applicability
+price_per_sqm,units,base_price_egp / area_sqm,Asset valuation density metric,HIGH (DIRECT LEAKAGE) - MUST EXCLUDE FROM PRICE MODEL,Track 3 Customer Segmentation / Descriptive Analytics only
+property_age,units,2026 - construction_year,Physical building age reflecting depreciation,NONE (Valid Predictor),Track 1 Property Valuation
+annual_expected_rent,units,expected_rent_monthly_egp * 12,Annualized rental income expectation,NONE,Track 1 & Track 4
+rental_yield,units,(annual_expected_rent / base_price_egp) * 100,Gross rental yield percentage,HIGH (DIRECT LEAKAGE) - MUST EXCLUDE FROM PRICE MODEL,Investment Scoring / Track 3
+room_density,units,((bedrooms + bathrooms) / area_sqm) * 100,Spatial efficiency and layout compactness,NONE (Valid Predictor),Track 1 Property Valuation
+budget_spread_egp,customers,budget_max_egp - budget_min_egp,Financial flexibility and willingness-to-pay range,NONE,Track 2 Lead Conversion & Track 3 Segmentation
+income_to_budget_ratio,customers,(monthly_income_egp * 12) / budget_max_egp,Affordability and debt-service capacity ratio,NONE,Track 2 Lead Conversion & Track 3 Segmentation
+turnaround_days,maintenance,completion_date - request_date,Ticket resolution velocity (operational efficiency),NONE,Track 5 Anomaly Detection
+payment_delay_days,rent_payments,"max(0, payment_date - due_date)",Tenant delinquency and cash-flow timing risk,NONE,Track 4 Cash-Flow & Track 5 Anomaly Detection

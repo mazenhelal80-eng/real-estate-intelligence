@@ -1,0 +1,61 @@
+check_category,table_name,column_name,check_description,status,details
+Primary Key Integrity,projects,project_id,Check uniqueness and non-null for PK project_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,units,unit_id,Check uniqueness and non-null for PK unit_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,customers,customer_id,Check uniqueness and non-null for PK customer_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,agents,agent_id,Check uniqueness and non-null for PK agent_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,listings,listing_id,Check uniqueness and non-null for PK listing_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,leads,lead_id,Check uniqueness and non-null for PK lead_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,viewings,viewing_id,Check uniqueness and non-null for PK viewing_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,deals,deal_id,Check uniqueness and non-null for PK deal_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,expenses,expense_id,Check uniqueness and non-null for PK expense_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,tenants,tenant_id,Check uniqueness and non-null for PK tenant_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,leases,lease_id,Check uniqueness and non-null for PK lease_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,rent_payments,payment_id,Check uniqueness and non-null for PK payment_id,PASS,"Unique: True, Nulls: False"
+Primary Key Integrity,maintenance,maintenance_id,Check uniqueness and non-null for PK maintenance_id,PASS,"Unique: True, Nulls: False"
+Foreign Key Integrity,units,project_id,FK project_id references PK projects.project_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,listings,unit_id,FK unit_id references PK units.unit_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,listings,agent_id,FK agent_id references PK agents.agent_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,leads,customer_id,FK customer_id references PK customers.customer_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,leads,listing_id,FK listing_id references PK listings.listing_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,leads,unit_id,FK unit_id references PK units.unit_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,leads,agent_id,FK agent_id references PK agents.agent_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,viewings,lead_id,FK lead_id references PK leads.lead_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,viewings,customer_id,FK customer_id references PK customers.customer_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,viewings,unit_id,FK unit_id references PK units.unit_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,viewings,agent_id,FK agent_id references PK agents.agent_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,deals,lead_id,FK lead_id references PK leads.lead_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,deals,viewing_id,FK viewing_id references PK viewings.viewing_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,deals,unit_id,FK unit_id references PK units.unit_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,deals,customer_id,FK customer_id references PK customers.customer_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,deals,agent_id,FK agent_id references PK agents.agent_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,expenses,project_id,FK project_id references PK projects.project_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,tenants,customer_id,FK customer_id references PK customers.customer_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,leases,unit_id,FK unit_id references PK units.unit_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,leases,tenant_id,FK tenant_id references PK tenants.tenant_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,rent_payments,lease_id,FK lease_id references PK leases.lease_id,PASS,Missing Parent Keys: 0
+Foreign Key Integrity,maintenance,unit_id,FK unit_id references PK units.unit_id,PASS,Missing Parent Keys: 0
+Chronological Consistency,viewings,viewing_date,viewing_date >= lead_date,PASS,Violations: 0
+Chronological Consistency,deals,deal_date,deal_date >= viewing_date,PASS,Violations: 0
+Chronological Consistency,leases,end_date,lease end_date > start_date,PASS,Violations: 0
+Financial Sanity,units,base_price_egp,Non-negative / strictly positive values for base_price_egp,PASS,All values strictly positive
+Financial Sanity,units,expected_rent_monthly_egp,Non-negative / strictly positive values for expected_rent_monthly_egp,PASS,All values strictly positive
+Financial Sanity,listings,listing_price_egp,Non-negative / strictly positive values for listing_price_egp,PASS,All values strictly positive
+Financial Sanity,deals,deal_price_egp,Non-negative / strictly positive values for deal_price_egp,PASS,All values strictly positive
+Financial Sanity,expenses,amount_egp,Non-negative / strictly positive values for amount_egp,PASS,All values strictly positive
+Financial Sanity,leases,monthly_rent_egp,Non-negative / strictly positive values for monthly_rent_egp,PASS,All values strictly positive
+Financial Sanity,rent_payments,amount_due_egp,Non-negative / strictly positive values for amount_due_egp,PASS,All values strictly positive
+Financial Sanity,maintenance,cost_egp,Non-negative / strictly positive values for cost_egp,PASS,All values strictly positive
+ML Signal Sanity,deals / leads,deal_status,Lead to closed deal conversion rate is realistic and learnable (5% - 40%),PASS,Actual Conversion Rate: 13.23%
+Row Count Target,projects,N/A,Verify required target count (20),PASS,Actual: 20 rows
+Row Count Target,units,N/A,Verify required target count (5000),PASS,"Actual: 5,000 rows"
+Row Count Target,customers,N/A,Verify required target count (10000),PASS,"Actual: 10,000 rows"
+Row Count Target,agents,N/A,Verify required target count (100),PASS,Actual: 100 rows
+Row Count Target,listings,N/A,Verify required target count (18000),PASS,"Actual: 18,000 rows"
+Row Count Target,leads,N/A,Verify required target count (60000),PASS,"Actual: 60,000 rows"
+Row Count Target,viewings,N/A,Verify required target count (40000),PASS,"Actual: 40,000 rows"
+Row Count Target,deals,N/A,Verify required target count (12000),PASS,"Actual: 12,000 rows"
+Row Count Target,expenses,N/A,Verify required target count (24000),PASS,"Actual: 24,000 rows"
+Row Count Target,tenants,N/A,Verify required target count (2500),PASS,"Actual: 2,500 rows"
+Row Count Target,leases,N/A,Verify required target count (3200),PASS,"Actual: 3,200 rows"
+Row Count Target,rent_payments,N/A,Verify required target count (32000),PASS,"Actual: 32,000 rows"
+Row Count Target,maintenance,N/A,Verify required target count (12000),PASS,"Actual: 12,000 rows"

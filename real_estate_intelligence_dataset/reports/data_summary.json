@@ -1,0 +1,46 @@
+{
+    "dataset_metadata": {
+        "title": "Real Estate Intelligence & Analytics Synthetic Dataset",
+        "currency": "EGP",
+        "start_date": "2024-01-01",
+        "end_date": "2026-09-30",
+        "random_seed": 42,
+        "generated_at": "2026-10-01T11:02:28.222937"
+    },
+    "table_row_counts": {
+        "projects": 20,
+        "units": 5000,
+        "customers": 10000,
+        "agents": 100,
+        "listings": 18000,
+        "leads": 60000,
+        "viewings": 40000,
+        "deals": 12000,
+        "expenses": 24000,
+        "tenants": 2500,
+        "leases": 3200,
+        "rent_payments": 32000,
+        "maintenance": 12000
+    },
+    "financial_kpis_egp": {
+        "total_closed_deal_revenue": 48984544000.0,
+        "total_rental_revenue": 1509915800.0,
+        "gross_revenue": 50494459800.0,
+        "total_expenses": 2675881754.0,
+        "net_operating_income": 47818578046.0,
+        "average_deal_price": 6171669.900466171
+    },
+    "business_metrics": {
+        "total_leads": 60000,
+        "total_viewings": 40000,
+        "total_deals_created": 12000,
+        "closed_deals_count": 7937,
+        "lead_to_closed_conversion_rate": 0.1323,
+        "active_leases_count": 1104
+    },
+    "validation_overview": {
+        "total_critical_checks": 47,
+        "critical_checks_passed": 47,
+        "all_critical_passed": true
+    }
+}

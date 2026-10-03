@@ -1,0 +1,16 @@
+import pandas as pd
+
+df=pd.read_csv(r"D:\Desktop\real-estate-intelligence\real_estate_intelligence_dataset\raw\units.csv")
+print(df.head())
+print("Columns:",df.columns)
+print("\nInfo")
+df.info()
+print("\nshape",df.shape)
+print("is null",df.isnull().sum())
+print("is duplicate",df.duplicated().sum())
+print(df.groupby("property_type")["area_sqm"].mean())
+print(df.groupby("property_type")["base_price_egp"].mean())
+print(df["property_type"].value_counts())
+idx = df["base_price_egp"].idxmax()
+print(df.loc[idx])
+print(df.groupby("project_id")["unit_id"].count().sort_values(ascending=False))

@@ -1,0 +1,101 @@
+agent_id,agent_name,email,phone_number,team_name,specialization,assigned_location,experience_years,effectiveness_rating,hire_date
+AGT_001,Sherif Monir,agent_001@realestate-intelligence.eg,+201161346663,Maadi Prestige,Apartment,6th of October,1,0.586,2021-08-07
+AGT_002,Nourhan Adel,agent_002@realestate-intelligence.eg,+201239435117,Maadi Prestige,Luxury,New Cairo,3,0.558,2023-07-06
+AGT_003,Karim El-Sayed,agent_003@realestate-intelligence.eg,+201538457041,Alpha Elite,Mixed,El Shorouk,14,0.905,2021-06-19
+AGT_004,Rami Nassar,agent_004@realestate-intelligence.eg,+201062034080,Capital Prime,Commercial,New Capital,11,0.878,2023-08-31
+AGT_005,Mennat Allah,agent_005@realestate-intelligence.eg,+201596645670,Zayed Velocity,Commercial,New Cairo,7,0.761,2022-12-13
+AGT_006,Amr Diab,agent_006@realestate-intelligence.eg,+201283324472,Maadi Prestige,Mixed,New Capital,10,0.868,2024-04-09
+AGT_007,Farah Shoukry,agent_007@realestate-intelligence.eg,+201590462712,Alpha Elite,Luxury,New Capital,9,0.69,2023-11-01
+AGT_008,Hazem Emam,agent_008@realestate-intelligence.eg,+201176521544,Commercial Titans,Apartment,New Capital,3,0.698,2021-06-21
+AGT_009,Yara Barakat,agent_009@realestate-intelligence.eg,+201163617479,Zayed Velocity,Villa,Maadi,13,0.86,2023-04-29
+AGT_010,Ziad Mansour,agent_010@realestate-intelligence.eg,+201294612872,Commercial Titans,Apartment,New Capital,5,0.696,2022-03-02
+AGT_011,Bassem Youssef,agent_011@realestate-intelligence.eg,+201594844988,Commercial Titans,Luxury,Alexandria,7,0.758,2022-11-09
+AGT_012,Ghada Abdel,agent_012@realestate-intelligence.eg,+201019695464,Capital Prime,Mixed,Sheikh Zayed,3,0.587,2022-01-16
+AGT_013,Tarek Lotfy,agent_013@realestate-intelligence.eg,+201239967343,Commercial Titans,Commercial,Sheikh Zayed,8,0.829,2022-07-27
+AGT_014,Nadine Nassib,agent_014@realestate-intelligence.eg,+201286450383,Alpha Elite,Luxury,New Cairo,1,0.624,2022-11-20
+AGT_015,Hesham Selim,agent_015@realestate-intelligence.eg,+201032878837,Zayed Velocity,Commercial,New Cairo,1,0.521,2022-10-14
+AGT_016,Dalia Mostafa,agent_016@realestate-intelligence.eg,+201088337858,Maadi Prestige,Mixed,New Capital,6,0.68,2023-05-04
+AGT_017,Seif El-Din,agent_017@realestate-intelligence.eg,+201525908505,Alpha Elite,Mixed,New Cairo,1,0.512,2021-07-31
+AGT_018,Riham Haggag,agent_018@realestate-intelligence.eg,+201157191450,Capital Prime,Luxury,Sheikh Zayed,1,0.57,2022-04-02
+AGT_019,Ahmed Fahmy,agent_019@realestate-intelligence.eg,+201148782391,Alpha Elite,Villa,Obour,2,0.5,2021-10-05
+AGT_020,Mai Ezz,agent_020@realestate-intelligence.eg,+201512098810,Zayed Velocity,Apartment,New Capital,3,0.616,2021-07-29
+AGT_021,Sherif Monir 21,agent_021@realestate-intelligence.eg,+201264110393,Maadi Prestige,Apartment,El Shorouk,7,0.63,2021-04-12
+AGT_022,Nourhan Adel 22,agent_022@realestate-intelligence.eg,+201532809841,Zayed Velocity,Commercial,New Capital,4,0.681,2024-02-06
+AGT_023,Karim El-Sayed 23,agent_023@realestate-intelligence.eg,+201530776412,Commercial Titans,Apartment,New Capital,14,0.907,2023-12-23
+AGT_024,Rami Nassar 24,agent_024@realestate-intelligence.eg,+201572469756,Alpha Elite,Luxury,Obour,13,0.816,2022-05-07
+AGT_025,Mennat Allah 25,agent_025@realestate-intelligence.eg,+201051884654,Zayed Velocity,Luxury,Maadi,8,0.751,2024-03-05
+AGT_026,Amr Diab 26,agent_026@realestate-intelligence.eg,+201045201460,Zayed Velocity,Mixed,New Capital,14,0.881,2022-10-04
+AGT_027,Farah Shoukry 27,agent_027@realestate-intelligence.eg,+201293165929,Maadi Prestige,Commercial,Obour,8,0.659,2021-11-21
+AGT_028,Hazem Emam 28,agent_028@realestate-intelligence.eg,+201133906354,Zayed Velocity,Luxury,New Capital,1,0.678,2024-01-21
+AGT_029,Yara Barakat 29,agent_029@realestate-intelligence.eg,+201059386491,Commercial Titans,Apartment,Nasr City,9,0.69,2023-01-16
+AGT_030,Ziad Mansour 30,agent_030@realestate-intelligence.eg,+201512134899,Alpha Elite,Villa,Sheikh Zayed,6,0.723,2021-06-24
+AGT_031,Bassem Youssef 31,agent_031@realestate-intelligence.eg,+201071490304,Capital Prime,Commercial,Sheikh Zayed,12,0.871,2023-01-03
+AGT_032,Ghada Abdel 32,agent_032@realestate-intelligence.eg,+201251659271,Zayed Velocity,Apartment,Mansoura,4,0.654,2021-04-03
+AGT_033,Tarek Lotfy 33,agent_033@realestate-intelligence.eg,+201233114821,Maadi Prestige,Luxury,Sheikh Zayed,8,0.78,2022-03-18
+AGT_034,Nadine Nassib 34,agent_034@realestate-intelligence.eg,+201033816061,Commercial Titans,Villa,Mansoura,1,0.547,2022-02-09
+AGT_035,Hesham Selim 35,agent_035@realestate-intelligence.eg,+201147439482,Capital Prime,Mixed,New Cairo,9,0.768,2021-02-28
+AGT_036,Dalia Mostafa 36,agent_036@realestate-intelligence.eg,+201547631463,Commercial Titans,Villa,6th of October,6,0.686,2022-02-05
+AGT_037,Seif El-Din 37,agent_037@realestate-intelligence.eg,+201061311497,Capital Prime,Apartment,Mansoura,11,0.805,2022-02-10
+AGT_038,Riham Haggag 38,agent_038@realestate-intelligence.eg,+201576222135,Maadi Prestige,Commercial,New Cairo,9,0.802,2023-06-02
+AGT_039,Ahmed Fahmy 39,agent_039@realestate-intelligence.eg,+201081338247,Capital Prime,Mixed,Maadi,9,0.796,2024-03-27
+AGT_040,Mai Ezz 40,agent_040@realestate-intelligence.eg,+201031721451,Zayed Velocity,Luxury,New Capital,2,0.601,2021-08-31
+AGT_041,Sherif Monir 41,agent_041@realestate-intelligence.eg,+201041562309,Commercial Titans,Villa,New Capital,3,0.614,2022-05-11
+AGT_042,Nourhan Adel 42,agent_042@realestate-intelligence.eg,+201055101710,Maadi Prestige,Apartment,6th of October,3,0.588,2023-11-19
+AGT_043,Karim El-Sayed 43,agent_043@realestate-intelligence.eg,+201248169014,Maadi Prestige,Commercial,Nasr City,10,0.756,2024-02-23
+AGT_044,Rami Nassar 44,agent_044@realestate-intelligence.eg,+201117138274,Capital Prime,Villa,Sheikh Zayed,12,0.855,2021-07-14
+AGT_045,Mennat Allah 45,agent_045@realestate-intelligence.eg,+201136611957,Alpha Elite,Apartment,Nasr City,12,0.865,2023-08-25
+AGT_046,Amr Diab 46,agent_046@realestate-intelligence.eg,+201097016271,Alpha Elite,Villa,New Capital,11,0.871,2023-04-02
+AGT_047,Farah Shoukry 47,agent_047@realestate-intelligence.eg,+201298864219,Alpha Elite,Commercial,New Cairo,10,0.733,2022-09-14
+AGT_048,Hazem Emam 48,agent_048@realestate-intelligence.eg,+201282776039,Zayed Velocity,Villa,Maadi,5,0.685,2023-11-25
+AGT_049,Yara Barakat 49,agent_049@realestate-intelligence.eg,+201522414359,Zayed Velocity,Villa,6th of October,13,0.775,2022-09-22
+AGT_050,Ziad Mansour 50,agent_050@realestate-intelligence.eg,+201090307781,Zayed Velocity,Mixed,El Shorouk,5,0.672,2023-04-14
+AGT_051,Bassem Youssef 51,agent_051@realestate-intelligence.eg,+201272556972,Maadi Prestige,Commercial,Nasr City,10,0.777,2021-03-07
+AGT_052,Ghada Abdel 52,agent_052@realestate-intelligence.eg,+201247794243,Alpha Elite,Luxury,El Shorouk,4,0.594,2023-08-25
+AGT_053,Tarek Lotfy 53,agent_053@realestate-intelligence.eg,+201271623292,Zayed Velocity,Commercial,El Shorouk,4,0.603,2023-08-10
+AGT_054,Nadine Nassib 54,agent_054@realestate-intelligence.eg,+201098929353,Zayed Velocity,Mixed,New Cairo,9,0.809,2023-09-13
+AGT_055,Hesham Selim 55,agent_055@realestate-intelligence.eg,+201139334993,Commercial Titans,Villa,Obour,3,0.635,2022-11-06
+AGT_056,Dalia Mostafa 56,agent_056@realestate-intelligence.eg,+201248304234,Maadi Prestige,Luxury,Sheikh Zayed,9,0.823,2021-09-06
+AGT_057,Seif El-Din 57,agent_057@realestate-intelligence.eg,+201191179109,Capital Prime,Villa,Mansoura,5,0.695,2024-04-12
+AGT_058,Riham Haggag 58,agent_058@realestate-intelligence.eg,+201579009788,Maadi Prestige,Mixed,6th of October,1,0.528,2022-03-11
+AGT_059,Ahmed Fahmy 59,agent_059@realestate-intelligence.eg,+201125211054,Maadi Prestige,Luxury,New Cairo,13,0.922,2023-09-10
+AGT_060,Mai Ezz 60,agent_060@realestate-intelligence.eg,+201073320331,Zayed Velocity,Luxury,Sheikh Zayed,10,0.787,2023-06-29
+AGT_061,Sherif Monir 61,agent_061@realestate-intelligence.eg,+201584956239,Alpha Elite,Villa,Sheikh Zayed,3,0.651,2021-12-28
+AGT_062,Nourhan Adel 62,agent_062@realestate-intelligence.eg,+201552103268,Zayed Velocity,Villa,New Cairo,7,0.773,2021-04-01
+AGT_063,Karim El-Sayed 63,agent_063@realestate-intelligence.eg,+201124838618,Capital Prime,Commercial,New Cairo,2,0.688,2023-12-02
+AGT_064,Rami Nassar 64,agent_064@realestate-intelligence.eg,+201028309300,Capital Prime,Mixed,Sheikh Zayed,2,0.574,2024-04-01
+AGT_065,Mennat Allah 65,agent_065@realestate-intelligence.eg,+201589783497,Capital Prime,Mixed,El Shorouk,8,0.72,2021-01-15
+AGT_066,Amr Diab 66,agent_066@realestate-intelligence.eg,+201173077522,Capital Prime,Mixed,6th of October,4,0.637,2022-12-21
+AGT_067,Farah Shoukry 67,agent_067@realestate-intelligence.eg,+201299088550,Capital Prime,Mixed,Sheikh Zayed,5,0.74,2023-03-29
+AGT_068,Hazem Emam 68,agent_068@realestate-intelligence.eg,+201177456639,Maadi Prestige,Commercial,New Cairo,6,0.806,2023-01-08
+AGT_069,Yara Barakat 69,agent_069@realestate-intelligence.eg,+201153101623,Zayed Velocity,Mixed,Obour,14,0.809,2021-09-26
+AGT_070,Ziad Mansour 70,agent_070@realestate-intelligence.eg,+201292606679,Zayed Velocity,Luxury,New Capital,5,0.72,2022-04-19
+AGT_071,Bassem Youssef 71,agent_071@realestate-intelligence.eg,+201044976910,Maadi Prestige,Villa,New Cairo,9,0.742,2024-04-24
+AGT_072,Ghada Abdel 72,agent_072@realestate-intelligence.eg,+201533327316,Capital Prime,Apartment,Sheikh Zayed,11,0.799,2023-10-01
+AGT_073,Tarek Lotfy 73,agent_073@realestate-intelligence.eg,+201225473771,Maadi Prestige,Luxury,New Capital,8,0.711,2022-04-28
+AGT_074,Nadine Nassib 74,agent_074@realestate-intelligence.eg,+201112535728,Zayed Velocity,Apartment,Maadi,4,0.662,2021-10-17
+AGT_075,Hesham Selim 75,agent_075@realestate-intelligence.eg,+201149522747,Capital Prime,Apartment,New Capital,3,0.628,2023-08-01
+AGT_076,Dalia Mostafa 76,agent_076@realestate-intelligence.eg,+201537397051,Capital Prime,Villa,Nasr City,1,0.631,2022-11-25
+AGT_077,Seif El-Din 77,agent_077@realestate-intelligence.eg,+201192666493,Capital Prime,Villa,Sheikh Zayed,7,0.826,2023-09-17
+AGT_078,Riham Haggag 78,agent_078@realestate-intelligence.eg,+201211403913,Maadi Prestige,Villa,Alexandria,9,0.74,2022-10-12
+AGT_079,Ahmed Fahmy 79,agent_079@realestate-intelligence.eg,+201184263477,Maadi Prestige,Apartment,Alexandria,4,0.576,2021-05-05
+AGT_080,Mai Ezz 80,agent_080@realestate-intelligence.eg,+201062974296,Commercial Titans,Luxury,Maadi,3,0.703,2021-04-08
+AGT_081,Sherif Monir 81,agent_081@realestate-intelligence.eg,+201027945967,Alpha Elite,Mixed,Alexandria,2,0.581,2023-07-22
+AGT_082,Nourhan Adel 82,agent_082@realestate-intelligence.eg,+201538890295,Commercial Titans,Villa,Sheikh Zayed,5,0.612,2021-02-08
+AGT_083,Karim El-Sayed 83,agent_083@realestate-intelligence.eg,+201022736787,Commercial Titans,Luxury,New Cairo,4,0.622,2022-08-31
+AGT_084,Rami Nassar 84,agent_084@realestate-intelligence.eg,+201111875943,Capital Prime,Commercial,Sheikh Zayed,8,0.789,2021-10-10
+AGT_085,Mennat Allah 85,agent_085@realestate-intelligence.eg,+201589221665,Zayed Velocity,Apartment,Alexandria,11,0.824,2022-01-31
+AGT_086,Amr Diab 86,agent_086@realestate-intelligence.eg,+201189032697,Commercial Titans,Commercial,New Capital,13,0.836,2023-02-05
+AGT_087,Farah Shoukry 87,agent_087@realestate-intelligence.eg,+201291287840,Commercial Titans,Mixed,New Cairo,9,0.714,2022-09-23
+AGT_088,Hazem Emam 88,agent_088@realestate-intelligence.eg,+201193198096,Alpha Elite,Luxury,Sheikh Zayed,14,1.0,2021-10-31
+AGT_089,Yara Barakat 89,agent_089@realestate-intelligence.eg,+201511586137,Zayed Velocity,Commercial,6th of October,10,0.802,2023-10-28
+AGT_090,Ziad Mansour 90,agent_090@realestate-intelligence.eg,+201531224580,Alpha Elite,Luxury,6th of October,8,0.929,2021-08-17
+AGT_091,Bassem Youssef 91,agent_091@realestate-intelligence.eg,+201073547868,Capital Prime,Luxury,Alexandria,9,0.792,2024-01-17
+AGT_092,Ghada Abdel 92,agent_092@realestate-intelligence.eg,+201155758852,Commercial Titans,Villa,Sheikh Zayed,3,0.585,2024-02-08
+AGT_093,Tarek Lotfy 93,agent_093@realestate-intelligence.eg,+201159082353,Zayed Velocity,Apartment,New Cairo,5,0.703,2022-01-29
+AGT_094,Nadine Nassib 94,agent_094@realestate-intelligence.eg,+201113419445,Capital Prime,Commercial,6th of October,2,0.681,2022-03-08
+AGT_095,Hesham Selim 95,agent_095@realestate-intelligence.eg,+201011938758,Commercial Titans,Commercial,Mansoura,14,0.895,2021-05-25
+AGT_096,Dalia Mostafa 96,agent_096@realestate-intelligence.eg,+201269429816,Commercial Titans,Commercial,Sheikh Zayed,6,0.732,2021-10-08
+AGT_097,Seif El-Din 97,agent_097@realestate-intelligence.eg,+201257696789,Commercial Titans,Apartment,Sheikh Zayed,13,0.859,2022-01-13
+AGT_098,Riham Haggag 98,agent_098@realestate-intelligence.eg,+201519228401,Capital Prime,Mixed,New Cairo,5,0.736,2022-08-07
+AGT_099,Ahmed Fahmy 99,agent_099@realestate-intelligence.eg,+201258473820,Commercial Titans,Villa,Obour,3,0.621,2022-06-01
+AGT_100,Mai Ezz 100,agent_100@realestate-intelligence.eg,+201091553425,Maadi Prestige,Mixed,Maadi,14,0.914,2022-08-18

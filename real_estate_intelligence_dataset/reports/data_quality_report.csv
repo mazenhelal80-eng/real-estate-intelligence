@@ -1,0 +1,4 @@
+table_name,column_name,issue_type,affected_rows,percentage,status
+customers,monthly_income_egp,Missing Values (NaN),39,0.39%,Expected Controlled Noise
+expenses,amount_egp,Injected Extreme Value Anomalies (is_anomaly=True),75,0.31%,Expected Controlled Outlier
+units,base_price_egp,Injected Price/Rent Outliers (is_outlier=True),18,0.36%,Expected Controlled Outlier

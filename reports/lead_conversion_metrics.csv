@@ -1,0 +1,7 @@
+metric,value
+total_leads,60000
+qualified_leads,8651
+converted_leads_closed_deals,7937
+overall_conversion_rate_percentage,13.23
+qualified_conversion_rate_percentage,91.75
+conversion_definition,A lead is converted if its lead_id exists in deals.csv with deal_status == 'Closed'

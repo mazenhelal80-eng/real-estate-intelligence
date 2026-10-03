@@ -1,0 +1,60 @@
+{
+  "model_name": "cash_flow_linear_v1",
+  "model_version": "v1",
+  "task_type": "time_series_forecasting",
+  "framework": "scikit-learn",
+  "framework_version": "1.9.1",
+  "serialization_format": "joblib",
+  "target_name": "net_cash_flow",
+  "feature_count": 17,
+  "feature_names": [
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_28",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_mean_14",
+    "rolling_mean_28",
+    "rolling_std_7",
+    "rolling_std_28",
+    "rolling_min_7",
+    "rolling_max_7",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "quarter",
+    "is_weekend"
+  ],
+  "feature_order": [
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_28",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_mean_14",
+    "rolling_mean_28",
+    "rolling_std_7",
+    "rolling_std_28",
+    "rolling_min_7",
+    "rolling_max_7",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "quarter",
+    "is_weekend"
+  ],
+  "preprocessing_requirements": "Autoregressive lags (1,7,14,28,30), shifted rolling stats (7,14,28), and calendar features",
+  "inference_contract": {
+    "forecast_mode": "One-step-ahead rolling daily forecast",
+    "forecast_frequency": "Daily (D)"
+  },
+  "evaluation_metrics": {
+    "holdout_mae": 27875485.27,
+    "holdout_rmse": 35335239.4,
+    "holdout_wape": 54.17
+  },
+  "training_dataset": "real_estate_intelligence_dataset/processed (deals, rent_payments, expenses)",
+  "created_at": "2026-10-02T08:17:12.347056+00:00"
+}

@@ -1,0 +1,2 @@
+total_rentable_units_inventory,total_leases_created,active_leases_count,expired_leases_count,terminated_leases_count,active_occupied_units_count,occupancy_rate_percentage,total_rent_due_egp,total_rent_collected_egp,collection_rate_percentage
+5000,3200,1104,1855,241,1005,20.1,1784148400.0,1747945700.0,97.97

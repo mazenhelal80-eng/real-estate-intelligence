@@ -1,0 +1,9 @@
+metric,value
+total_maintenance_tickets,12000.0
+completed_tickets_count,9863.0
+in_progress_tickets_count,1427.0
+scheduled_tickets_count,710.0
+total_maintenance_expenditure_egp,99947020.0
+average_ticket_cost_egp,8328.92
+median_ticket_cost_egp,5760.0
+completion_rate_percentage,82.19

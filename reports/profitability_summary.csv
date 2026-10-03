@@ -1,0 +1,10 @@
+metric,value
+total_sales_revenue_egp,48984544000
+total_rental_revenue_egp,1747945700
+gross_revenue_egp,50732489700
+total_operating_expenses_egp,2675881754
+net_operating_profit_egp,48056607946
+net_profit_margin_percentage,94.73
+sales_revenue_contribution_pct,96.55
+rental_revenue_contribution_pct,3.45
+accounting_definition,Net Profit = (Closed Deals Sales Revenue + Collected Rental Revenue) - Total Expenses

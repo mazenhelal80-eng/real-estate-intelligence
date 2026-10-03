@@ -1,0 +1,10 @@
+metric,value
+total_deals_created,12000.0
+total_closed_deals,7937.0
+total_cancelled_deals,4063.0
+cancellation_rate_percentage,33.86
+total_closed_revenue_egp,48984544000.0
+average_deal_value_egp,6171669.9
+median_deal_value_egp,4959000.0
+min_deal_value_egp,6700.0
+max_deal_value_egp,59382000.0

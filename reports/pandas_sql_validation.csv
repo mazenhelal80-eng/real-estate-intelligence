@@ -1,0 +1,15 @@
+validation_category,metric_name,pandas_value,sql_value,difference,status,details
+Raw Data Immutability,Raw CSV SHA-256 Checksums,13 Files Matching,13 Files Matching,0.0,PASS,All 13 raw CSV tables are bit-for-bit identical to baseline manifest
+Pandas vs SQL Cross-Validation,Total Monthly Closed Sales Revenue,"48,984,544,000.00","48,984,544,000.00",0.0,PASS,Exact match across all 33 monthly aggregation buckets
+Pandas vs SQL Cross-Validation,Total Location-Aggregated Revenue,"48,984,544,000.00","48,984,544,000.00",0.0,PASS,Exact match across all 10 governorates/zones
+Pandas vs SQL Cross-Validation,Total Property Type Revenue,"48,984,544,000.00","48,984,544,000.00",0.0,PASS,Exact match across all 6 property types
+Pandas vs SQL Cross-Validation,Total Closed Deals Count,7937.0,7937.0,0.0,PASS,Exact closed deal count verification
+Pandas vs SQL Cross-Validation,Average Deal Value (EGP),"6,171,669.90","6,171,669.90",0.0,PASS,Mean transaction value matches within rounding precision
+Pandas vs SQL Cross-Validation,Net Operating Profit (EGP),"48,056,607,946.00","48,056,607,946.00",0.0,PASS,"Revenues, Expenses, and Net Profits match exactly"
+Pandas vs SQL Cross-Validation,Rental Occupancy Rate Percentage,20.10%,20.10%,0.0,PASS,"Active lease occupancy matched on identical 5,000 unit denominator"
+Pandas vs SQL Cross-Validation,Total Collected Rent Payments,"1,747,945,700.00","1,747,945,700.00",0.0,PASS,"Total cash collection across all 32,000 payment records matched"
+Pandas vs SQL Cross-Validation,Total Maintenance Cost (EGP),"99,947,020.00","99,947,020.00",0.0,PASS,"12,000 maintenance ticket expenses match exactly"
+Pandas vs SQL Cross-Validation,Total Project Aggregated Revenue,"48,984,544,000.00","48,984,544,000.00",0.0,PASS,All 20 projects' revenues match exactly between Pandas and SQL
+Relational Integrity,Sales Join Cardinality (Deals->Units->Projects),"7,937 rows","7,937 rows",0.0,PASS,Zero row inflation in multi-table sales joins
+Relational Integrity,Maintenance Join Cardinality (Maintenance->Units),"12,000 rows","12,000 rows",0.0,PASS,Zero row inflation in maintenance-to-units join
+Relational Integrity,Lease Payments Join Cardinality (RentPayments->Leases),"32,000 rows","32,000 rows",0.0,PASS,Zero row inflation in rent-payments-to-leases join

@@ -1,0 +1,14 @@
+table_name,total_rows,total_columns,duplicate_rows,missing_cells,missing_columns_count,missing_columns_list,constant_columns_count,candidate_pk_columns,date_columns_count,date_columns_list
+agents,100,10,0,0,0,None,0,agent_id,1,hire_date
+customers,10000,14,0,39,1,monthly_income_egp,0,customer_id,1,created_at
+deals,12000,13,0,0,0,None,0,deal_id;lead_id;viewing_id,1,deal_date
+expenses,24000,7,0,0,0,None,0,expense_id,1,expense_date
+leads,60000,10,0,0,0,None,0,lead_id,1,lead_date
+leases,3200,8,0,0,0,None,0,lease_id,2,start_date;end_date
+listings,18000,10,0,0,0,None,0,listing_id,1,listing_date
+maintenance,12000,9,0,2137,1,completion_date,0,maintenance_id,3,request_date;scheduled_date;completion_date
+projects,20,10,0,0,0,None,1,project_id,2,launch_date;expected_completion_date
+rent_payments,32000,8,0,0,0,None,0,payment_id,2,due_date;payment_date
+tenants,2500,8,0,0,0,None,0,tenant_id;customer_id,1,registration_date
+units,5000,12,0,0,0,None,0,unit_id,0,None
+viewings,40000,10,0,0,0,None,0,viewing_id;lead_id,1,viewing_date

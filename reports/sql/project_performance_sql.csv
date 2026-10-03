@@ -1,0 +1,21 @@
+project_id,project_name,developer_name,project_type,location,launch_date,expected_completion_date,target_total_units,popularity_score,construction_status,total_units_count,listed_units_count,closed_deals_count,revenue_egp,total_expenses_egp,average_deal_value_egp,net_project_profit_egp,profit_margin_percentage
+PRJ_001,Crestview Heights,Orascom Development,Residential,New Cairo,2025-01-30,2028-01-15,250,9.26,Planning,250,241,409,4402395000.0,139725996.0,10763801.96,4262669004.0,96.83
+PRJ_017,Cedar Ridge,Palm Hills Legacy,Residential,New Cairo,2024-06-25,2027-12-07,250,9.1,Planning,250,243,430,4083861600.0,128170301.0,9497352.56,3955691299.0,96.86
+PRJ_011,Nile Breeze View,Mountain View East,Residential,New Cairo,2023-02-22,2025-08-10,250,9.02,Under Construction,250,243,407,3939254600.0,134284431.0,9678758.23,3804970169.0,96.59
+PRJ_002,Palma Residences,Palm Hills Legacy,Residential,Sheikh Zayed,2024-10-18,2027-10-03,250,9.39,Planning,250,246,411,3906743000.0,135344523.0,9505457.42,3771398477.0,96.54
+PRJ_013,Oasis Palms,Emaar Misr Prime,Residential,New Capital,2023-12-18,2026-06-05,250,9.28,Under Construction,250,241,401,3109941400.0,136660131.0,7755464.84,2973281269.0,95.61
+PRJ_019,Vista Del Mar,Palm Hills Legacy,Coastal,New Capital,2024-11-28,2026-11-18,250,9.23,Planning,250,242,362,2740032700.0,130750825.0,7569151.1,2609281875.0,95.23
+PRJ_012,Urban Square,Mountain View East,Commercial,Sheikh Zayed,2023-02-08,2025-07-27,250,8.93,Under Construction,250,244,422,2674031600.0,135494162.0,6336567.77,2538537438.0,94.93
+PRJ_016,Royal Meadows,Talaat Moustafa Group,Residential,Alexandria,2025-02-05,2027-07-25,250,6.91,Planning,250,243,443,2582822800.0,138843726.0,5830299.77,2443979074.0,94.62
+PRJ_018,Crown Plaza Center,Talaat Moustafa Group,Commercial,Sheikh Zayed,2023-09-06,2027-08-16,250,9.19,Under Construction,250,243,404,2581778200.0,138756881.0,6390540.1,2443021319.0,94.63
+PRJ_003,Grand Horizon Plaza,Talaat Moustafa Group,Commercial,New Capital,2024-10-20,2027-10-05,250,8.29,Planning,250,244,449,2497541900.0,130391333.0,5562454.12,2367150567.0,94.78
+PRJ_006,Green Oasis Valley,Mountain View East,Residential,Alexandria,2024-02-19,2028-01-29,250,7.65,Under Construction,250,245,403,2172659300.0,140081832.0,5391214.14,2032577468.0,93.55
+PRJ_014,The Promenade West,Hassan Allam Properties,Mixed Use,Maadi,2024-05-11,2027-10-23,250,7.93,Under Construction,250,238,387,2093503500.0,131319980.0,5409569.77,1962183520.0,93.73
+PRJ_004,The Gate Compound,Mountain View East,Mixed Use,Maadi,2023-09-02,2027-02-13,250,8.77,Under Construction,250,242,403,2031188800.0,131244036.0,5040170.72,1899944764.0,93.54
+PRJ_007,Azure Bay Resort,Mountain View East,Coastal,Nasr City,2023-11-06,2027-04-19,250,7.31,Under Construction,250,245,361,1989420300.0,135625037.0,5510859.56,1853795263.0,93.18
+PRJ_005,Skyline Towers,Palm Hills Legacy,Mixed Use,6th of October,2023-06-04,2026-11-15,250,7.19,Under Construction,250,241,399,1741063900.0,139876586.0,4363568.67,1601187314.0,91.97
+PRJ_015,Solaris Business Park,Palm Hills Legacy,Commercial,6th of October,2024-12-21,2028-11-30,250,7.41,Planning,250,244,371,1660676600.0,129233348.0,4476217.25,1531443252.0,92.22
+PRJ_008,Emerald Park,Emaar Misr Prime,Residential,El Shorouk,2024-01-02,2027-12-12,250,6.86,Under Construction,250,246,341,1595043900.0,129686928.0,4677548.09,1465356972.0,91.87
+PRJ_020,Metropolis Hub,Sodic Prestige,Mixed Use,El Shorouk,2023-07-15,2026-06-29,250,7.66,Under Construction,250,239,360,1105836800.0,116411278.0,3071768.89,989425522.0,89.47
+PRJ_010,Zayed Promenade,Misr Italia Urban,Mixed Use,Mansoura,2023-06-11,2026-11-22,250,6.36,Under Construction,250,242,409,1046393900.0,132406753.0,2558420.29,913987147.0,87.35
+PRJ_009,Capital Hub One,Misr Italia Urban,Commercial,Obour,2023-02-27,2026-02-11,250,6.41,Under Construction,250,241,365,1030354200.0,141573667.0,2822888.22,888780533.0,86.26

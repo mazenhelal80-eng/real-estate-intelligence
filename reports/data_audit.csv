@@ -1,0 +1,14 @@
+file_name,total_rows,total_columns,total_missing_cells,missing_cells_percentage,duplicate_rows_count,duplicate_rows_percentage,numeric_columns_count,categorical_columns_count,date_columns_count,id_columns_count,boolean_columns_count,columns_with_missing_values
+agents.csv,100,10,0,0.0,0,0.0,3,5,1,1,0,None
+customers.csv,10000,14,39,0.03,0,0.0,4,8,1,1,0,monthly_income_egp
+deals.csv,12000,13,0,0.0,0,0.0,3,3,1,6,0,None
+expenses.csv,24000,7,0,0.0,0,0.0,1,2,1,2,1,None
+leads.csv,60000,10,0,0.0,0,0.0,2,2,1,5,0,None
+leases.csv,3200,8,0,0.0,0,0.0,2,1,2,3,0,None
+listings.csv,18000,10,0,0.0,0,0.0,4,2,1,3,0,None
+maintenance.csv,12000,9,2137,1.98,0,0.0,1,3,3,2,0,completion_date
+projects.csv,20,10,0,0.0,0,0.0,2,5,2,1,0,None
+rent_payments.csv,32000,8,0,0.0,0,0.0,1,2,3,2,0,None
+tenants.csv,2500,8,0,0.0,0,0.0,1,4,1,2,0,None
+units.csv,5000,12,0,0.0,0,0.0,7,2,0,2,1,None
+viewings.csv,40000,10,0,0.0,0,0.0,1,3,1,5,0,None
